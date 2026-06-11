@@ -1,81 +1,268 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Holiday Home Apartments</title>
-<link rel='stylesheet' href='style.css'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holiday Home | Service Apartments Freetown</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <p><i class="fas fa-phone"></i> +232 79 777111</p>
+        </div>
+    </div>
 
-<header>
-<img src='images/Logo.png' class='logo'>
-<nav>
-<a href='index.html'>Home</a>
-<a href='#rooms'>Rooms</a>
-<a href='#services'>Services</a>
-<a href='#contact'>Contact</a>
-</nav>
-</header>
+    <!-- Header -->
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <h1>Holiday Home</h1>
+                <span>SERVICE APARTMENTS</span>
+            </div>
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#properties">Properties</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-icon">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
 
-<section class='hero'>
-<h1>Welcome to Holiday Home Apartments</h1>
-<p>Luxury, comfort and peace in the heart of Freetown.</p>
-</section>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <p class="location-tag">FREETOWN · SIERRA LEONE</p>
+            <h2>Find Your Perfect Home and <span class="highlight">Luxury Service Apartment</span> in Freetown</h2>
+            <p class="sub-headline">Trusted real estate and serviced apartment solutions for residents, travelers, and investors.</p>
+            <div class="hero-btns">
+                <a href="#properties" class="btn btn-primary">View Properties <i class="fas fa-arrow-right"></i></a>
+                <a href="#contact" class="btn btn-secondary">Contact Us</a>
+            </div>
+        </div>
+    </section>
 
-<section class='rooms' id='rooms'>
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container stats-grid">
+            <div class="stat-item">
+                <h3>12+</h3>
+                <p>Years of Experience</p>
+            </div>
+            <div class="stat-item">
+                <h3>850+</h3>
+                <p>Happy Clients</p>
+            </div>
+            <div class="stat-item">
+                <h3>420+</h3>
+                <p>Properties Sold & Rented</p>
+            </div>
+            <div class="stat-item">
+                <h3>98%</h3>
+                <p>Client Satisfaction</p>
+            </div>
+        </div>
+    </section>
 
-<div class='room-card'>
-<img src="images/executive-room.jpg" alt="Executive Room">
-<div class="room-content">
-<h3>Executive Room</h3>
-<p>Spacious and elegantly designed with modern amenities. Perfect for business travelers or those seeking luxury.</p> 
-<a href='executive.html' class='btn'>View Room</a>
-</div>
-</div>
+    <!-- Featured Properties -->
+    <section id="properties" class="properties">
+        <div class="container">
+            <div class="section-title">
+                <div class="line"></div>
+                <h2>FEATURED Handpicked Properties</h2>
+                <div class="line"></div>
+            </div>
+            <div class="property-grid">
+                <!-- Property Card 1 -->
+                <div class="property-card">
+                    <div class="property-img">
+                        <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80" alt="Executive Serviced Suite">
+                        <span class="status-tag">SHORT STAY</span>
+                    </div>
+                    <div class="property-info">
+                        <p class="p-location">SS Camp, Freetown</p>
+                        <h4>Executive Serviced Suite</h4>
+                        <p class="price">$150 / Night</p>
+                        <div class="p-details">
+                            <span><i class="fas fa-bed"></i> 2 Beds</span>
+                            <span><i class="fas fa-bath"></i> 2 Baths</span>
+                        </div>
+                        <a href="#" class="inquire-link">Inquire <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- Property Card 2 -->
+                <div class="property-card">
+                    <div class="property-img">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80" alt="Modern Family Townhouse">
+                        <span class="status-tag">FOR SALE</span>
+                    </div>
+                    <div class="property-info">
+                        <p class="p-location">Aberdeen, Freetown</p>
+                        <h4>Modern Family Townhouse</h4>
+                        <p class="price">$320,000</p>
+                        <div class="p-details">
+                            <span><i class="fas fa-bed"></i> 4 Beds</span>
+                            <span><i class="fas fa-bath"></i> 3 Baths</span>
+                        </div>
+                        <a href="#" class="inquire-link">Inquire <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- Property Card 3 -->
+                <div class="property-card">
+                    <div class="property-img">
+                        <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80" alt="Luxury Penthouse">
+                        <span class="status-tag">FOR RENT</span>
+                    </div>
+                    <div class="property-info">
+                        <p class="p-location">Hill Station, Freetown</p>
+                        <h4>Luxury Penthouse</h4>
+                        <p class="price">$2,500 / Month</p>
+                        <div class="p-details">
+                            <span><i class="fas fa-bed"></i> 3 Beds</span>
+                            <span><i class="fas fa-bath"></i> 3 Baths</span>
+                        </div>
+                        <a href="#" class="inquire-link">Inquire <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<div class='room-card'>
-<img src="images/standard-room.jpg" alt="Standard Room">
-<div class='room-content'>
-<h3>Standard Room</h3>
-<p>Cosy and affordable - equipped with everything you need for a comfortable short or long stay.</p>
-<a href='standard.html' class='btn'>View Room</a>
-</div>
-</div>
+    <!-- Why Choose Us -->
+    <section class="why-choose-us">
+        <div class="container">
+            <h2 class="section-title-alt">WHY CHOOSE US: The Holiday Home Standard</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Verified Listings</h3>
+                    <p>Every property in our portfolio is personally inspected and verified for quality and authenticity.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-key"></i></div>
+                    <h3>Seamless Handover</h3>
+                    <p>From viewing to keys in hand, we manage the entire process to ensure a stress-free experience.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-building"></i></div>
+                    <h3>Trusted Locally</h3>
+                    <p>With over a decade in Freetown, we have the local expertise you can rely on for your investment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<div class='room-card'>
-<img src="images/deluxe-room.jpg" alt="Deluxe Room">
-<div class='room-content'>
-<h3>Deluxe Room</h3>
-<p>Experience elevated comfort in our deluxe room, thoughtfully designed for relaxation.</p> 
-<a href='deluxe.html' class='btn'>View Room</a>
-</div>
-</div>
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title-alt">GALLERY: Inside Our Properties</h2>
+            <div class="gallery-grid">
+                <img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=800&q=80" alt="Gallery Image 1">
+                <img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=800&q=80" alt="Gallery Image 2">
+                <img src="https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=800&q=80" alt="Gallery Image 3">
+                <img src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=800&q=80" alt="Gallery Image 4">
+                <img src="https://images.unsplash.com/photo-1505691722718-620a4ca7c3b6?auto=format&fit=crop&w=800&q=80" alt="Gallery Image 5">
+                <img src="https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=800&q=80" alt="Gallery Image 6">
+            </div>
+        </div>
+    </section>
 
-<div class='room-card'>
-<img src="images/superior-room.jpg" alt="Superior Room">
-<div class='room-content'>
-<h3>Superior Room</h3>
-<p>Enjoy a refined stay in our Superior Room, designed to combine comfort, style, and functionality.</p>
-<a href='superior.html' class='btn'>View Room</a>
-</div>
-</div>
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title-alt">TESTIMONIALS</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p>"The service was exceptional. They found me a luxury apartment in record time. Highly recommend for business travelers!"</p>
+                    <div class="client-info">
+                        <strong>James Wilson</strong>
+                        <span>BUSINESS TRAVELER</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p>"As an investor from the diaspora, I needed a trusted partner. Holiday Home delivered beyond my expectations."</p>
+                    <div class="client-info">
+                        <strong>Sarah Sesay</strong>
+                        <span>DIASPORA INVESTOR</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-</section>
+    <!-- Final CTA -->
+    <section class="final-cta">
+        <div class="container">
+            <h2>Ready to find your next home?</h2>
+            <div class="cta-btns">
+                <a href="tel:+23279777111" class="btn btn-primary"><i class="fas fa-phone"></i> +232 79 777111</a>
+                <a href="https://wa.me/23279777111" class="btn btn-dark"><i class="fab fa-whatsapp"></i> Chat on WhatsApp</a>
+            </div>
+        </div>
+    </section>
 
-<footer id='contact'>
-<p>SS Camp 9, Abib Drive, Freetown, Sierra Leone</p>
-<p>+232 79777111 | +232 74508635</p>
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <div class="logo">
+                    <h1>Holiday Home</h1>
+                    <span>SERVICE APARTMENTS</span>
+                </div>
+                <p>Premium real estate and serviced apartment solutions in Freetown, Sierra Leone.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#properties">Properties</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3>Explore</h3>
+                <ul>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Get in Touch</h3>
+                <p><i class="fas fa-map-marker-alt"></i> SS Camp, 9 Abib Drive, Freetown</p>
+                <p><i class="fas fa-phone"></i> +232 79 777111</p>
+                <p><i class="fas fa-envelope"></i> info@holidayhome.sl</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Holiday Home Service Apartments. All Rights Reserved.</p>
+        </div>
+    </footer>
 
-<a href='https://www.airbnb.com' class='btn'>Airbnb</a>
+    <!-- WhatsApp Floating Icon -->
+    <a href="https://wa.me/23279777111" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
 
-<div class='socials'>
-<a href='https://www.facebook.com/share/1CwVojvgLu/'>Facebook</a>
-<a href='https://www.instagram.com/holi.dayhome266?igsh=MXUweGpjcWNtOXp1dg=='>Instagram</a>
-<a href='https://x.com/HolidayHom50113'>Twitter/X</a>
-<a href='https://www.tiktok.com/@holiday.home.apar?_r=1&_t=ZS-96ANqgLtOK5'>TikTok</a>
-</div>
-
-</footer>
-
+    <script src="script.js"></script>
 </body>
 </html>
