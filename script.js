@@ -22,6 +22,17 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+
+    document.querySelectorAll('a[href="#booking"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector('#booking');
+            if (target) {
+                target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        });
+    });
+
     // Sticky Header Effect
     const header = document.querySelector('header');
     window.addEventListener('scroll', () => {

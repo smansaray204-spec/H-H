@@ -1,6 +1,6 @@
 {
     "next_property_id": 4,
-    "next_reservation_id": 2,
+    "next_reservation_id": 1,
     "properties": [
         {
             "id": 1,
@@ -13,7 +13,7 @@
             "bathrooms": 1,
             "capacity": 2,
             "status": "active",
-            "created_at": "2026-09-07T15:25:13+00:00"
+            "created_at": "2026-09-07T15:11:50+00:00"
         },
         {
             "id": 2,
@@ -42,24 +42,5 @@
             "created_at": "2026-09-07T15:11:50+00:00"
         }
     ],
-    "reservations": [
-        {
-            "id": 1,
-            "reference": "HHA-260907-BFC553",
-            "property_id": 1,
-            "guest_name": "Abubakarr Jalloh",
-            "guest_phone": "099865580",
-            "guest_email": "jabubakarr584@gmail.com",
-            "guests": 1,
-            "check_in": "2026-10-04",
-            "check_out": "2026-10-06",
-            "nights": 2,
-            "rate": 100,
-            "total": 200,
-            "amount_paid": 0,
-            "status": "cancelled",
-            "notes": "",
-            "created_at": "2026-09-07T15:17:40+00:00"
-        }
-    ]
+    "reservations": []
 }
